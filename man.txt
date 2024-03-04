@@ -1,0 +1,9 @@
+          ________
++--------(Commands)---------+
+|--help : shows this manue  | 
+|man    : shows this manue  |
+|cl     : clear the terminal|
+|cv     : shows the version |    
+|ls                         |
+|ls -la                     |
++---------------------------+
