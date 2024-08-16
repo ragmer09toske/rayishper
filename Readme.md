@@ -55,7 +55,7 @@ Social-Engineering-Toolkit-(SET): For social engineering attacks.
 
 ## Usage
 ## To run Rayishper:
-./rayishper.py
+'./rayishper.py'
 
 ## Main Menu
 When you start the script, you'll be prompted with the following options:
