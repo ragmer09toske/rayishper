@@ -142,4 +142,4 @@ sudo dnsspoof
 ```
 
 ## License
-This project is open-source and available under the [MIT License.](# MIT License.)
+This project is open-source and available under the [MIT License.](https://opensource.org/license/mit)
