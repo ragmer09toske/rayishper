@@ -31,7 +31,10 @@ Rayishper started as a simple note-taking practice to assist with various cybers
 
 ```bash
 git clone https://github.com/your-repo/rayishper.git
+```
+```bash
 cd rayishper
+```
 
 ## Make the script executable:
 chmod +x rayishper.py
