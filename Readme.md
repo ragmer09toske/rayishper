@@ -27,12 +27,13 @@ Rayishper started as a simple note-taking practice to assist with various cybers
 
 ## Installation
 
-## Clone the Rayishper repository:
+Clone the Rayishper repository:
 
 ```bash
 git clone https://github.com/your-repo/rayishper.git
 ```
 ```bash
+git clone [https://github.com/your-repo/rayishper.git] (https://github.com/your-repo/rayishper.git)
 cd rayishper
 ```
 
@@ -58,7 +59,7 @@ Social-Engineering-Toolkit-(SET): For social engineering attacks.
 
 ## Usage
 ## To run Rayishper:
-./rayishper.py
+[./rayishper.py](./rayishper.py)
 
 ## Main Menu
 When you start the script, you'll be prompted with the following options:
